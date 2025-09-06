@@ -1,0 +1,26 @@
+/* Nav Bar Styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
